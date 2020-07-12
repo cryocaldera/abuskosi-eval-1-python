@@ -1,0 +1,361 @@
+a.stub,a.new{color:#ba0000;text-decoration:none}#toc{border:1px solid #aaaaaa;background-color:#f9f9f9;padding:5px}.tocindent{margin-left:2em}.tocline{margin-bottom:0px} div.floatright{float:right;clear:right;position:relative;margin:0.5em 0 0.8em 1.4em}div.floatright p{font-style:italic}div.floatleft{float:left;clear:left;position:relative;margin:0.5em 1.4em 0.8em 0}div.floatleft p{font-style:italic}div.center{text-align:center} div.thumb{border:none;width:auto;margin-top:0.5em;margin-bottom:0.8em;background-color:transparent}div.thumbinner{border:1px solid #cccccc;padding:3px !important;background-color:White;font-size:94%;text-align:center;overflow:hidden}html .thumbimage{border:1px solid #cccccc}html .thumbcaption{border:none;text-align:left;line-height:1.4em;padding:3px !important;font-size:94%}div.magnify{display:none}div.tright{float:right;clear:right;margin:0.5em 0 0.8em 1.4em}div.tleft{float:left;clear:left;margin:0.5em 1.4em 0.8em 0}img.thumbborder{border:1px solid #dddddd} table.rimage{float:right;width:1pt;position:relative;margin-left:1em;margin-bottom:1em;text-align:center}body{background:White; color:Black;margin:0;padding:0}.noprint,div#jump-to-nav,div.top,div#column-one,#colophon,.editsection,.toctoggle,.tochidden,div#f-poweredbyico,div#f-copyrightico,li#viewcount,li#about,li#disclaimer,li#privacy,#footer-places,#mw-hidden-catlinks{ display:none}ul{list-style-type:square}#content{background:none;border:none ! important;padding:0 ! important;margin:0 ! important}#footer{background :white;color :black;border-top:1px solid black}h1,h2,h3,h4,h5,h6{font-weight:bold}p,.documentDescription{margin:1em 0 ! important;line-height:1.2em}.tocindent p{margin:0 0 0 0 ! important}pre{border:1pt dashed black;white-space:pre;font-size:8pt;overflow:auto;padding:1em 0;background:white;color:black}table.listing,table.listing td{border:1pt solid black;border-collapse:collapse}a{color:Black !important;background:none !important;padding:0 !important}a:link,a:visited{color:#520;background:transparent;text-decoration:underline}#content a.external.text:after,#content a.external.autonumber:after{ content:" (" attr(href) ") "}#globalWrapper{width:100% !important;min-width:0 !important}#content{background:white;color:black}#column-content{margin:0 !important}#column-content #content{padding:1em;margin:0 !important} a,a.external,a.new,a.stub{color:black ! important;text-decoration:none ! important} a,a.external,a.new,a.stub{color:inherit ! important;text-decoration:inherit ! important}img{border:none;vertical-align:middle} span.texhtml{font-family:serif}#siteNotice{display:none} li.gallerybox{vertical-align:top;background-color:#f9f9f9;border:solid 2px white;display:-moz-inline-box;display:inline-block}ul.gallery,li.gallerybox{zoom:1;*display:inline}ul.gallery{margin:2px;padding:2px;display:block}li.gallerycaption{font-weight:bold;text-align:center;display:block;word-wrap:break-word}li.gallerybox div.thumb{text-align:center;border:1px solid #ccc;margin:2px}div.gallerytext{overflow:hidden;font-size:94%;padding:2px 4px;word-wrap:break-word} table.diff{background:white}td.diff-otitle{background:#ffffff}td.diff-ntitle{background:#ffffff}td.diff-addedline{background:#ccffcc;font-size:smaller;border:solid 2px black}td.diff-deletedline{background:#ffffaa;font-size:smaller;border:dotted 2px black}td.diff-context{background:#eeeeee;font-size:smaller}.diffchange{color:silver;font-weight:bold;text-decoration:underline} table.wikitable{margin:1em 1em 1em 0;border:1px #aaa solid;background:white;border-collapse:collapse}.wikitable th,.wikitable td{border:1px #aaa solid;padding:0.2em}.wikitable th{text-align:center;background:white;font-weight:bold}.wikitable caption{font-weight:bold}a.sortheader{margin:0px 0.3em} .wikitable,.thumb,img{page-break-inside:avoid}h2,h3,h4,h5,h6,h7{page-break-after:avoid}p{widows:3;orphans:3}
+/* Every time you change this CSS please bump $wgFlaggedRevStyleVersion in FlaggedRevs.php */
+
+/* Standard User Interface */
+div.flaggedrevs_basic,
+div.flaggedrevs_quality,
+div.flaggedrevs_pristine,
+div.flaggedrevs_notice {
+	border: 1px solid #aaa;
+	padding: 5px;
+	font-weight: normal;
+	line-height: 1.5em;
+	margin: .5em 1em 0em 0em;
+	text-align: center;
+	clear: both;
+}
+div.flaggedrevs_short_basic img {
+	vertical-align: text-bottom;
+}
+div.flaggedrevs_basic {
+	background-color: #f0f8ff;
+}
+div.flaggedrevs_quality {
+	background-color: #f0fff0;
+}
+div.flaggedrevs_pristine {
+	background-color: #fffff0;
+}
+div.flaggedrevs_notice {
+	background-color: #f9f9f9;
+}
+
+table.flaggedrevs_editnotice,
+table.flaggedrevs_viewnotice {
+	padding: 3px;
+	border: 2px solid #6cc8f3;
+	background-color: #f9f9f9;
+	text-align: left;
+	width: 100%;
+	clear: both;
+}
+.rtl table.flaggedrevs_editnotice,
+.rtl table.flaggedrevs_viewnotice {
+	text-align: right;
+}
+
+div.flaggedrevs_diffnotice,
+div.flaggedrevs_preview {
+	border: 1px solid #a7d7f9;
+	padding: 5px;
+	text-align: center;
+	clear: both;
+}
+div.flaggedrevs_diffnotice {
+	font-size: 85%;
+	background-color: #f9f9f9;
+}
+div.flaggedrevs_preview {
+	background-color: #eaf2fd;
+	color: black;
+}
+
+span.flaggedrevs_important {
+	font-size: 115%;
+	font-weight: bold;
+}
+
+div.flaggedrevs_notes {
+	border: 1px solid #aaa;
+	background-color: #f9f9f9;
+	padding: 5px;
+	font-size: 85%;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+
+.fr-text-value {
+	width: 100px;
+}
+
+.fr-marker-20,
+.fr-marker-40,
+.fr-marker-60,
+.fr-marker-80,
+.fr-marker-100 {
+	background-position: bottom left;
+	background-repeat: no-repeat;    
+	padding-bottom: 3px;
+}
+
+.fr-marker-20 {
+	background-image: url(extensions/FlaggedRevs/client/img/bar_20.png);
+}
+.fr-marker-40 {
+	background-image: url(extensions/FlaggedRevs/client/img/bar_40.png);
+}
+.fr-marker-60 {
+	background-image: url(extensions/FlaggedRevs/client/img/bar_60.png);
+}
+.fr-marker-80 {
+	background-image: url(extensions/FlaggedRevs/client/img/bar_80.png);
+}
+.fr-marker-100 {
+	background-image: url(extensions/FlaggedRevs/client/img/bar_100.png);
+}
+
+/* Short User Interface */
+div.flaggedrevs_short {
+	border: 1px solid #ccc;
+	background-color: #ffffff;
+	font-size: 95%;
+	font-weight: normal;
+	margin: 0 0 0 1em;
+	line-height: 16px;
+	padding: 2px;
+	float: right;
+}
+
+.rtl div.flaggedrevs_short {
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+div.flaggedrevs_short_basic {
+	white-space: nowrap;
+}
+
+div.flaggedrevs_short_details {
+	border: 1px solid #aaa;
+	background-color: #ffffff;
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	right: -2px;
+	width: 25em;
+}
+
+.rtl div.flaggedrevs_short_details {
+	right: auto;
+	left: -2px;
+}
+
+.fr-text {
+	height: 1em;
+	line-height: 1em;
+	margin: 0px 7px 0px 0px;
+	padding: 0px;
+	font-weight: bold;
+	width: 80px;
+}
+
+.fr-value20,
+.fr-value40,
+.fr-value60,
+.fr-value80,
+.fr-value100 {
+	height: 1em;
+	line-height: 1em;
+	width: 95px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	text-align: center;
+}
+
+.fr-value20 {
+	background-image: url(extensions/FlaggedRevs/client/img/fr-marker-20.png);
+}
+.fr-value40 {
+	background-image: url(extensions/FlaggedRevs/client/img/fr-marker-40.png);
+}
+.fr-value60 {
+	background-image: url(extensions/FlaggedRevs/client/img/fr-marker-60.png);
+}
+.fr-value80 {
+	background-image: url(extensions/FlaggedRevs/client/img/fr-marker-80.png);
+}
+.fr-value100 {
+	background-image: url(extensions/FlaggedRevs/client/img/fr-marker-100.png);
+}
+
+/* Both User Interfaces */
+.flaggedrevs-color-0 {
+	background-color: #f9f9f9;
+}
+.flaggedrevs-color-1 {
+	background-color: #f0f8ff;
+}
+.flaggedrevs-color-2 {
+	background-color: #f0fff0;
+}
+.flaggedrevs-color-3 {
+	background-color: #fffff0;
+}
+
+.flaggedrevs-pending {
+	background-color: #ffeeaa;
+}
+.flaggedrevs-unreviewed {
+	background-color: #faebd7;
+}
+
+a.fr-toggle-symbol {
+	color: blue;
+	white-space: nowrap;
+	font-family: monospace;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 0 .3em 0 .3em;
+}
+
+a.fr-toggle-text {
+	color: blue;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+img.fr-toggle-arrow {
+	cursor: pointer;
+}
+
+li.fr-hist-stable-margin {
+	margin-top: 2em;
+}
+
+img.flaggedrevs-icon {
+	margin-right: .2em;
+	margin-left: .2em;
+}
+
+.fr-diff-ratings {
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 1em;
+	width: 100%;
+}
+
+.fr-diff-to-stable {
+	line-height: 1em;
+}
+
+.fr-hist-basic-user,
+.fr-hist-quality-user,
+.fr-hist-basic-auto,
+.fr-hist-quality-auto {
+	font-weight: bold;
+}
+
+/* RC pending changes notice */
+.fr-watchlist-pending-notice {
+	padding: 3px;
+	margin: 5px;
+	border: 1px solid #990000;
+	background-color: #FEECD7;
+}
+
+/* Special pages */
+.fr-pending-long {
+	background-color: #f5ecec;
+}
+.fr-pending-long2 {
+	background-color: #f5dddd;
+}
+.fr-pending-long3 {
+	background-color: #e2caca;
+}
+
+.fr-unreviewed-unwatched {
+	background-color: #faebd7;
+}
+
+span.fr-under-review {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+.mw-fr-reviewlink {
+	font-weight: bold;
+}
+
+/* Review form */
+.flaggedrevs_reviewform {
+	background-color: #f9f9f9;
+	font-size: 90%;
+	clear: both;
+}
+
+.fr-rating-controls,
+.fr-rating-controls-disabled {
+	vertical-align: middle;
+}
+
+.fr-rating-controls-disabled {
+	color: GrayText;
+}
+
+.fr-rating-options {
+	margin-right: 1.5em;
+}
+
+.fr-rating-option-0 {
+	background-color: #f5ecec;
+}
+.fr-rating-option-1 {
+	background-color: #f0f8ff;
+}
+.fr-rating-option-2 {
+	background-color: #f0fff0;
+}
+.fr-rating-option-3 {
+	background-color: #fef0db;
+}
+.fr-rating-option-4 {
+	background-color: #fffff0;
+}
+
+.fr-diff-patrollink {
+	text-align: center;
+}
+
+.fr-notes-box {
+	width: 95%;
+	margin: 0em 1em 0em .5em;
+}
+
+.fr-comment-box {
+	margin-top: .25em;
+}
+
+.fr-rating-dave {
+	background-color: #E0ECF8;
+}
+
+.fr-rating-rave {
+	background-color: #E0F8EC;
+}
+
+.fr-hiddenform {
+	display: none;
+}
+
+.loading { 
+	display: block;
+	color: #666666; 
+	padding-left: 40px;
+	height: 32px;
+}
+.spinner {
+	background-position: left center;
+	margin-left: 1em;
+	margin-top: -1.3em;
+	float: left;
+}
+
+div.langlinks {
+	margin-top: 1em;
+	padding: 5px;
+	border: 1px solid #aaa;
+}
+div .warning,div .warning-severe{color:#666600;border:1px solid gray;background:#ffffd0 url('https://www.spieleprogrammierer.de/w/images/d/d6/Icon_Warnung.png') no-repeat 5px center;padding:5px 5px 5px 50px;margin-top:5px;margin-bottom:5px;overflow:auto}div .warning-severe{color:#492222;border-color:#492222;background-color:#ff9494}div .panel,div .panel-collapsed{margin-top:5px;margin-bottom:5px;background-color:#eee;border:1px solid #999;-moz-border-radius:4px;-webkit-border-radius:4px}div .panel .panel-header,div .panel-collapsed .panel-header{background:#ddd none no-repeat 5px center;padding-left:20px;border-bottom:1px solid #999;-moz-border-radius:3px;-webkit-border-radius:3px;border-top:1px solid #fff;border-right:1px solid #fff;border-left:1px solid #fff;cursor:pointer}div .panel .panel-header:hover,div .panel-collapsed .panel-header:hover{background-color:#a7d7f9}div .panel .panel-header{background-image:url('https://www.spieleprogrammierer.de/w/skins/common/images/Arr_u.png')}div .panel-collapsed .panel-header{background-image:url('https://www.spieleprogrammierer.de/w/skins/common/images/Arr_d.png')}div .panel-content{background:#eee;overflow:hidden;padding:0 10px}div .panel-collapsed .panel-content{display:none}
